@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+    
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos"><br><br>
+    
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni"><br><br>
+    
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+    
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+    
+        <label for="codigo_postal">Código postal:</label>
+        <input type="text" id="codigo_postal" name="codigo_postal"><br><br>
+    
+        <label for="fecha_carnet">Fecha del carnet de conducir:</label>
+        <input type="date" id="fecha_carnet" name="fecha_carnet"><br><br>
+
+        <label for="matricula">Matricula</label>
+        <input type="string" id="matricula" name="matricula"><br><br>
+    
+        <label for="fecha_matriculacion">Fecha de matriculación:</label>
+        <input type="date" id="fecha_matriculacion" name="fecha_matriculacion"><br><br>
+    
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+    
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+    
+        <label for="comunidad">Comunidad:</label>
+        <select id="comunidad" name="comunidad">
+            <option value="baleares">Baleares</option>
+        </select><br><br>
+    
+        <label for="provincia">Provincia:</label>
+        <select id="provincia" name="provincia">
+        </select><br><br>
+    
+        <label for="marca">Marca:</label>
+        <select id="marca" name="marca">
+            <!-- investigar como hacerlos dependientes-->
+        </select><br><br>
+    
+        <label for="modelo">Modelo:</label>
+        <select id="modelo" name="modelo">
+            <!-- investigar como hacerlos dependientes-->
+        </select><br><br>
+    
+        <label for="tipo_seguro">Tipo de seguro:</label>
+        <select id="tipo_seguro" name="tipo_seguro">
+            <option value="terceros">Terceros</option>
+            <option value="terceros_ampliado">Terceros ampliado</option>
+            <option value="con_franquicia">Con franquicia</option>
+            <option value="todo_riesgo">Todo riesgo</option>
+        </select><br><br>
+    
+        <label for="tipo_vehiculo">Tipo de vehículo:</label>
+        <select id="tipo_vehiculo" name="tipo_vehiculo">
+            <option value="diesel">Diesel</option>
+            <option value="gasolina">Gasolina</option>
+            <option value="hibrido">Híbrido</option>
+            <option value="electrico">Eléctrico</option>
+        </select><br><br>
+    
+        <label for="foto_carnet">Foto del carnet de conducir:</label>
+        <input type="file" id="foto_carnet" name="foto_carnet" accept="image/jpeg, image/png"><br><br>
+    
+        <input type="checkbox" id="terminos" name="terminos">
+        <label for="terminos">Acepto los términos y condiciones</label><br><br>
+    
+        <input type="submit" value="Enviar" id="botonEnviar">
+    </form>
+<script type="module" src="validaciones.js"></script>
+</body>
+</html>
