@@ -12,7 +12,7 @@ Este proyecto es una aplicación web para calcular seguros de vehículos. Incluy
 1. Clona el repositorio en tu máquina local:
 
 ```sh
-git clone https://github.com/tu-usuario/proyecto-aseguradora.git
+git clone https://github.com/Sfacius-DAWI/eventos_actividad.git
 cd proyecto-aseguradora
 ````
 2. Instala las dependencias del proyecto:
