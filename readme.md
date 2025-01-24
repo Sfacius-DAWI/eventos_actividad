@@ -65,5 +65,3 @@ permite no subir las carpetas que yo haya selecionado
       validar_datos.js
       verificamosFormatos.js
   ```
-
-    
