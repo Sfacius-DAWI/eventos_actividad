@@ -40,30 +40,30 @@ permite no subir las carpetas que yo haya selecionado
 8. la plabra async en cada una de las funciones junto con la palabra resevada await hace que la ejecuión del codigo se pare hasta que se haya ejecutado esa función funciona como una promesa y no se va a devolver la respusta del formulacio hasta que se haya completado la función
 9. estructura
     ```
-    __tests__/
-  formatosISO.test.js
-  validaciones.test.js
-  validarfechas.test.js
-.babelrc
-.gitignore
-.prettierrc
-.vscode/
-  launch.json
-  settings.json
-babel.config.cjs
-calcularSeguro.js
-codigo.js
-eslint.config.mjs
-index.html
-jest.config.cjs
-package.json
-readme.md
-server.js
-styles.css
-utils/
-  calcularSeguro.js
-  validar_datos.js
-  verificamosFormatos.js
+    __tests__
+    formatosISO.test.js
+    validaciones.test.js
+    validarfechas.test.js
+    .babelrc
+    .gitignore
+    .prettierrc
+    .vscode/
+      launch.json
+      settings.json
+    babel.config.cjs
+    calcularSeguro.js
+    codigo.js
+    eslint.config.mjs
+    index.html
+    jest.config.cjs
+    package.json
+    readme.md
+    server.js
+    styles.css
+    utils/
+      calcularSeguro.js
+      validar_datos.js
+      verificamosFormatos.js
   ```
 
     
