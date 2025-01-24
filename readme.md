@@ -65,3 +65,6 @@ permite no subir las carpetas que yo haya selecionado
       validar_datos.js
       verificamosFormatos.js
   ```
+```
+10. el servidor esta hecho en fastify que es la herramienta que utilizo en el trabajo 
+11. los test estan hechos en jest 
