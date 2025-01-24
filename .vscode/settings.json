@@ -1,0 +1,19 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": true,
+  "editor.fontSize": 14,
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#00ff00"
+  },
+  "editor.cursorStyle": "line"
+}
