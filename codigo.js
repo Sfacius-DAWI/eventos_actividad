@@ -3,6 +3,7 @@ import {
   validarfechas,
   formato_ISO,
 } from './utils/validar_datos.js';
+import { verificarFormatos } from './utils/verificamosFormatos.js';
 import { calcularSeguro } from './utils/calcularSeguro.js';
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -21,10 +22,11 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 export const Validaciones = async () => {
+  await verificarFormatos();
   await validarnombre_y_apellido();
   await validarfechas();
   await formato_ISO();
-  await calcularSeguro(); // Asegúrate de que esta sea la última operación
+  await calcularSeguro();
 };
 
 document
