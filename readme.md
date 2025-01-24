@@ -25,6 +25,7 @@ npm install
 
 ```
 noode server.js
+Este comando lanzara unas URL por pantalla puedes darle CTRL + click o copiarlas directo en google
 ```
 4. ejecutar los test
 los puedes ejecutar uno por 1 utilizando la extension de jest o puedes ejecutarlos todos utilizando
@@ -33,12 +34,13 @@ npm run test
 ```
 5. la carpeta .vscode
 sirve para ejecutar el debug y el apartado settings.json entre otras cosas se cordina con el lint para que al darle a guardar se actulice todo segun las normas establecidas en linst
-6. buble
+Si quieres hacer uso del debug primero tienes que arrancar el servidor con server.js y despues lanzar el debuger desde el boton de debug de visual studio(proyecto preparado para funcionar en VScode)
+7. buble
 lo he utilizado para poder actulizar la forma en la que se hacen los export y los import dado que ES6 me gusta mas
-7. git ignore
+8. git ignore
 permite no subir las carpetas que yo haya selecionado
-8. la plabra async en cada una de las funciones junto con la palabra resevada await hace que la ejecuión del codigo se pare hasta que se haya ejecutado esa función funciona como una promesa y no se va a devolver la respusta del formulacio hasta que se haya completado la función
-9. estructura
+9. la plabra async en cada una de las funciones junto con la palabra resevada await hace que la ejecuión del codigo se pare hasta que se haya ejecutado esa función funciona como una promesa y no se va a devolver la respusta del formulacio hasta que se haya completado la función
+10. estructura
     ```
     __tests__
     formatosISO.test.js
