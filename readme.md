@@ -13,7 +13,7 @@ Este proyecto es una aplicación web para calcular seguros de vehículos. Incluy
 
 ```sh
 git clone https://github.com/Sfacius-DAWI/eventos_actividad.git
-asegurate de estar en eventos_actividad
+asegurate de estar en eventos_actividad antes de lanzar ningun comando de otra manera lanzara un error, este tocaria iniciar de forma automatica, pero revisa la ruta por si acaso
 ````
 2. Instala las dependencias del proyecto:
 
